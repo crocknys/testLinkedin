@@ -1,0 +1,35 @@
+<div class="main">
+
+  <div class="col">
+
+    <textarea
+    rows="10"
+    [(ngModel)]="textToCheck">
+    </textarea>
+
+    <Button (click)="checkValue()"> check text</Button>
+  </div>
+
+  <div class="col">
+
+    <div class="counter">
+      <h3>
+        nombre followers touchés : {{followerCount}}
+      </h3>
+    </div>
+
+    <div class="hashtagList">
+      <h3>
+        Hashtags
+      </h3>
+      <div *ngIf="hashtagList">
+        <p *ngFor="let hash of hashtagList" class="hashtag">
+          {{hash}}
+        </p>
+      </div>
+      <Button (click)="reset()"> Reset</Button>
+    </div>
+
+  </div>
+
+</div>

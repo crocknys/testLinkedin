@@ -1,0 +1,28 @@
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  width: 50%;
+  height: 100vh;
+}
+
+textarea {
+  background-color: #d4d4d4;
+  width: 95%;
+  height: 40%;
+}
+
+.counter {
+  padding: 1vh;
+}
+
+.hashtagList {
+  padding: 2vh;
+}
+
+.hashtag {
+  padding: 0.2vh;
+  margin-left: 2vh;
+}
