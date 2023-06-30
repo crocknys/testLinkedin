@@ -7,14 +7,14 @@
     [(ngModel)]="textToCheck">
     </textarea>
 
-    <Button (click)="checkValue()"> check text</Button>
+    <Button (click)="checkValue()" class="button"> check text</Button>
   </div>
 
   <div class="col">
 
     <div class="counter">
       <h3>
-        nombre followers touchés : {{followerCount}}
+        nombre followers potentiel touchés : {{followerCount}}
       </h3>
     </div>
 
@@ -27,7 +27,7 @@
           {{hash}}
         </p>
       </div>
-      <Button (click)="reset()"> Reset</Button>
+      <Button (click)="reset()" class="button"> Reset</Button>
     </div>
 
   </div>

@@ -40,6 +40,7 @@ export class AppComponent implements OnInit{
 
   checkFollowerCount() {
     this.hashtagList.forEach( x => {
+      console.log("linkedin api call for: " + x)
       //appel à linkedin.
     })
   }
